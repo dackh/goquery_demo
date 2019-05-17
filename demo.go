@@ -23,7 +23,7 @@ type Book struct {
 
 func ExampleScrape() {
 
-	db, err := sql.Open("mysql", "root:123456@tcp(119.23.227.157:3306)/wenda")
+	db, err := sql.Open("mysql", "xxxxxx:xxxxx@tcp(xxxxx:3306)/wenda")
 	if err != nil {
 		log.Fatal(err)
 	}
